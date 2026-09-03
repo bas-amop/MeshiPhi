@@ -19,7 +19,7 @@
       
       
       <link rel="icon" href="https://cdn.web.bas.ac.uk/bas-style-kit/0.7.3/img/favicon/favicon-16x16.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -27,7 +27,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -3372,7 +3372,7 @@
 of mesh construction and json object generation are as follows:</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">meshiphi.mesh</span><span class="w"> </span><span class="kn">import</span> <span class="n">Mesh</span>
 
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;config.json&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'config.json'</span><span class="p">,</span> <span class="s1">'r'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="n">config</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 
 <span class="n">mesh</span> <span class="o">=</span> <span class="n">Mesh</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
@@ -3385,20 +3385,20 @@ of mesh construction and json object generation are as follows:</p>
 <p>The json object outputted by the Mesh consists of 3 sections: <code>config</code>,
 <code>cellboxes</code> and <code>neighbour_graph</code>.</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;config&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"config"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">        </span><span class="err">...</span>
 <span class="w">    </span><span class="p">},</span>
-<span class="w">    </span><span class="nt">&quot;cellboxes&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="nt">"cellboxes"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">        </span><span class="p">{</span><span class="err">...</span><span class="p">},</span>
 <span class="w">        </span><span class="err">...</span>
 <span class="w">        </span><span class="p">{</span><span class="err">...</span><span class="p">}</span>
 <span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;neighbour_graph&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<span class="w">        </span><span class="nt">&quot;&lt;id_1&gt;&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"neighbour_graph"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="nt">"&lt;id_1&gt;"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">            </span><span class="err">...</span>
 <span class="w">        </span><span class="p">},</span>
 <span class="w">        </span><span class="err">...</span>
-<span class="w">        </span><span class="nt">&quot;id_n&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"id_n"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">            </span><span class="err">...</span>
 <span class="w">        </span><span class="p">}</span>
 <span class="w">    </span><span class="p">]</span>
@@ -3413,15 +3413,15 @@ of mesh construction and json object generation are as follows:</p>
 <h3 id="cellboxes"><code>cellboxes</code><a class="headerlink" href="#cellboxes" title="Permanent link">&para;</a></h3>
 <p>Each CellBox object within <code>cellboxes</code> in the outputted json object is of the following form:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">    </span><span class="s2">&quot;id&quot;</span><span class="w"> </span><span class="err">(s</span><span class="kc">tr</span><span class="err">i</span><span class="kc">n</span><span class="err">g)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;geometry&quot;</span><span class="w"> </span><span class="err">(s</span><span class="kc">tr</span><span class="err">i</span><span class="kc">n</span><span class="err">g)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;cx&quot;</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;cy&quot;</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;dcx&quot;</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;dcy&quot;</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;&lt;value_1&gt;&quot;</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"id"</span><span class="w"> </span><span class="err">(s</span><span class="kc">tr</span><span class="err">i</span><span class="kc">n</span><span class="err">g)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"geometry"</span><span class="w"> </span><span class="err">(s</span><span class="kc">tr</span><span class="err">i</span><span class="kc">n</span><span class="err">g)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"cx"</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"cy"</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"dcx"</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"dcy"</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
+<span class="w">    </span><span class="s2">"&lt;value_1&gt;"</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span><span class="p">,</span>
 <span class="w">    </span><span class="err">...</span>
-<span class="w">    </span><span class="s2">&quot;&lt;value_n&gt;&quot;</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span>
+<span class="w">    </span><span class="s2">"&lt;value_n&gt;"</span><span class="w"> </span><span class="err">(</span><span class="kc">fl</span><span class="err">oa</span><span class="kc">t</span><span class="err">)</span><span class="p">:</span><span class="w"> </span><span class="err">...</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>Where the values within the CellBox represent the following:</p>
@@ -3441,15 +3441,15 @@ of mesh construction and json object generation are as follows:</p>
 <p>Once the vehicle accessibility conditions have been applied to the json object, this may no longer be true as inaccessible CellBoxes will be removed from <em>neighbour_graph</em> but will remain in <em>cellboxes</em></p>
 </div>
 <p>Each entry in the <code>neighbour_graph</code> is of the following form:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">&quot;&lt;id&gt;&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;1&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;2&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;3&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;4&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;-1&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;-2&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;-3&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;-4&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">]</span>
+<div class="highlight"><pre><span></span><code><span class="nt">"&lt;id&gt;"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"1"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">"2"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">"3"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">"4"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">"-1"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">"-2"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">"-3"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">],</span>
+<span class="w">    </span><span class="nt">"-4"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="err">...</span><span class="p">]</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>where each of the values represent the following: </p>
@@ -3523,7 +3523,7 @@ of mesh construction and json object generation are as follows:</p>
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "content.action.edit"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

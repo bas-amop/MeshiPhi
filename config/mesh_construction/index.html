@@ -19,7 +19,7 @@
       
       
       <link rel="icon" href="https://cdn.web.bas.ac.uk/bas-style-kit/0.7.3/img/favicon/favicon-16x16.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -27,7 +27,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -3364,203 +3364,203 @@ available <a href="https://github.com/bas-amop/MeshiPhi/tree/main/examples/envir
 <details>
 <summary><strong>Click to open full configuration</strong></summary>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;region&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;lat_min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;lat_max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;long_min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;long_max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;start_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2017-02-01&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;end_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2017-02-04&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;cell_width&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;cell_height&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span>
+<span class="w">    </span><span class="nt">"region"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"lat_min"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"lat_max"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"long_min"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"long_max"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"start_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-02-01"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"end_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-02-04"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"cell_width"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"cell_height"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span>
 <span class="w">    </span><span class="p">},</span>
-<span class="w">    </span><span class="nt">&quot;data_sources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">    </span><span class="nt">"data_sources"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">        </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;loader&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;params&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">                </span><span class="nt">&quot;data_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SIC&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;seed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">16</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;splitting_conditions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="nt">"loader"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"params"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">"data_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"SIC"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"seed"</span><span class="p">:</span><span class="w"> </span><span class="mi">16</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"splitting_conditions"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="p">{</span>
-<span class="w">                        </span><span class="nt">&quot;SIC&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">                            </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">75</span><span class="p">,</span>
-<span class="w">                            </span><span class="nt">&quot;upper_bound&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span>
-<span class="w">                            </span><span class="nt">&quot;lower_bound&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span>
+<span class="w">                        </span><span class="nt">"SIC"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                            </span><span class="nt">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="mi">75</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">"upper_bound"</span><span class="p">:</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">"lower_bound"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span>
 <span class="w">                        </span><span class="p">}</span>
 <span class="w">                    </span><span class="p">}</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;dataloader_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;downsample_factors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="nt">"dataloader_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"downsample_factors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">1</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;aggregate_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;MEAN&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min_dp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;in_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;out_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;x_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;lat&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;y_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;long&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;size&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;alpha&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;binary&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="nt">"aggregate_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MEAN"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min_dp"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"in_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"out_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"x_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lat"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"y_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"long"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"alpha"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"binary"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;multiplier&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
+<span class="w">                </span><span class="nt">"multiplier"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
 <span class="w">            </span><span class="p">}</span>
 <span class="w">        </span><span class="p">},</span>
 <span class="w">        </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;loader&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;params&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">                </span><span class="nt">&quot;data_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;elevation&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">-100</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;seed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;splitting_conditions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="nt">"loader"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"params"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">"data_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"elevation"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min"</span><span class="p">:</span><span class="w"> </span><span class="mi">-100</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"seed"</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"splitting_conditions"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="p">{</span>
-<span class="w">                        </span><span class="nt">&quot;elevation&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">                            </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">-10</span><span class="p">,</span>
-<span class="w">                            </span><span class="nt">&quot;upper_bound&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span>
-<span class="w">                            </span><span class="nt">&quot;lower_bound&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span>
+<span class="w">                        </span><span class="nt">"elevation"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                            </span><span class="nt">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="mi">-10</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">"upper_bound"</span><span class="p">:</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span>
+<span class="w">                            </span><span class="nt">"lower_bound"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span>
 <span class="w">                        </span><span class="p">}</span>
 <span class="w">                    </span><span class="p">}</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;dataloader_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;downsample_factors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="nt">"dataloader_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"downsample_factors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">1</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;aggregate_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;MEAN&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min_dp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;in_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;out_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;x_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;lat&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;y_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;long&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;size&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;alpha&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;binary&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="nt">"aggregate_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MEAN"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min_dp"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"in_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"out_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"x_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lat"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"y_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"long"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"alpha"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"binary"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;multiplier&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
+<span class="w">                </span><span class="nt">"multiplier"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
 <span class="w">            </span><span class="p">}</span>
 <span class="w">        </span><span class="p">},</span>
 <span class="w">        </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;loader&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;params&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">                </span><span class="nt">&quot;data_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;thickness&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.65</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">1.4</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;seed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">44</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;dataloader_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;downsample_factors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="nt">"loader"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"params"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">"data_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"thickness"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.65</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mf">1.4</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"seed"</span><span class="p">:</span><span class="w"> </span><span class="mi">44</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"dataloader_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"downsample_factors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">1</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;aggregate_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;MEAN&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min_dp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;in_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;out_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;x_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;lat&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;y_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;long&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;size&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;alpha&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;binary&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="nt">"aggregate_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MEAN"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min_dp"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"in_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"out_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"x_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lat"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"y_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"long"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"alpha"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"binary"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;multiplier&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
+<span class="w">                </span><span class="nt">"multiplier"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
 <span class="w">            </span><span class="p">}</span>
 <span class="w">        </span><span class="p">},</span>
 <span class="w">        </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;loader&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;params&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">                </span><span class="nt">&quot;data_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;density&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">850</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1000</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;seed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">40</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;dataloader_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;downsample_factors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="nt">"loader"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"params"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">"data_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"density"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min"</span><span class="p">:</span><span class="w"> </span><span class="mi">850</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mi">1000</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"seed"</span><span class="p">:</span><span class="w"> </span><span class="mi">40</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"dataloader_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"downsample_factors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">1</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;aggregate_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;MEAN&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min_dp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;in_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;out_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;x_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;lat&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;y_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;long&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;size&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;alpha&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;binary&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">                </span><span class="nt">"aggregate_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MEAN"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min_dp"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"in_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"out_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"x_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lat"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"y_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"long"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"alpha"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"binary"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;multiplier&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
+<span class="w">                </span><span class="nt">"multiplier"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span>
 <span class="w">            </span><span class="p">}</span>
 <span class="w">        </span><span class="p">},</span>
 <span class="w">        </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;loader&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vector_grf&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;params&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">                </span><span class="nt">&quot;data_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;uC,vC&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;seed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">21</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;dataloader_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vector_grf&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;downsample_factors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="nt">"loader"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vector_grf"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"params"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">"data_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uC,vC"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"seed"</span><span class="p">:</span><span class="w"> </span><span class="mi">21</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"dataloader_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vector_grf"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"downsample_factors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">1</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;aggregate_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;MEAN&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min_dp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;in_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;out_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;x_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;lat&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;y_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;long&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;size&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;alpha&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;vec_x&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;uC&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;vec_y&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vC&quot;</span>
+<span class="w">                </span><span class="nt">"aggregate_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MEAN"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min_dp"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"in_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"out_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"x_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lat"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"y_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"long"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"alpha"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"vec_x"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uC"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"vec_y"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vC"</span>
 <span class="w">            </span><span class="p">}</span>
 <span class="w">        </span><span class="p">},</span>
 <span class="w">        </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;loader&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vector_grf&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;params&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">                </span><span class="nt">&quot;data_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;u10,v10&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;seed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">21</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;dataloader_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vector_grf&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;downsample_factors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="nt">"loader"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vector_grf"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"params"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="nt">"data_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"u10,v10"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"seed"</span><span class="p">:</span><span class="w"> </span><span class="mi">21</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"dataloader_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vector_grf"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"downsample_factors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                    </span><span class="mi">1</span><span class="p">,</span>
 <span class="w">                    </span><span class="mi">1</span>
 <span class="w">                </span><span class="p">],</span>
-<span class="w">                </span><span class="nt">&quot;aggregate_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;MEAN&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;min_dp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;in_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;out_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;x_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;lat&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;y_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;long&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;size&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;alpha&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;vec_x&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;uC&quot;</span><span class="p">,</span>
-<span class="w">                </span><span class="nt">&quot;vec_y&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;vC&quot;</span>
+<span class="w">                </span><span class="nt">"aggregate_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MEAN"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"min_dp"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"in_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"out_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"x_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lat"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"y_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"long"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"alpha"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"vec_x"</span><span class="p">:</span><span class="w"> </span><span class="s2">"uC"</span><span class="p">,</span>
+<span class="w">                </span><span class="nt">"vec_y"</span><span class="p">:</span><span class="w"> </span><span class="s2">"vC"</span>
 <span class="w">            </span><span class="p">}</span>
 <span class="w">        </span><span class="p">}</span>
 <span class="w">    </span><span class="p">],</span>
-<span class="w">    </span><span class="nt">&quot;splitting&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;split_depth&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;minimum_datapoints&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span>
+<span class="w">    </span><span class="nt">"splitting"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"split_depth"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"minimum_datapoints"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
@@ -3576,15 +3576,15 @@ in a section titled <code>mesh_info</code>.</p>
 bounding region and temporal portion of interest (<code>long_min</code>, <code>lat_min</code>, <code>long_max</code>, <code>lat_max</code>, <code>start_time</code>, <code>end_time</code>), but
 also the starting shape of the spatial grid cell boxes (<code>cell_width</code>, <code>cell_height</code>) is defined before splitting is
 applied. Further detail on each parameter is given below:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">&quot;region&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;lat_min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;lat_max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;long_min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;long_max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;start_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2017-02-01&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;end_time&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2017-02-04&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;cell_width&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;cell_height&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span>
+<div class="highlight"><pre><span></span><code><span class="nt">"region"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">"lat_min"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"lat_max"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"long_min"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"long_max"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"start_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-02-01"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"end_time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-02-04"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"cell_width"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"cell_height"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>where the variables are as follows:</p>
@@ -3602,51 +3602,51 @@ applied. Further detail on each parameter is given below:</p>
 <p class="admonition-title">Note</p>
 <p>Variables <code>start_time</code> and <code>end_time</code> also support reference to system time using the keyword <strong>TODAY</strong> <em>e.g.</em> </p>
 </div>
-<div class="highlight"><pre><span></span><code>&quot;startTime&quot;: &quot;TODAY&quot; ,  &quot;endTime&quot;: &quot;TODAY + 5&quot;
+<div class="highlight"><pre><span></span><code>"startTime": "TODAY" ,  "endTime": "TODAY + 5"
 
-&quot;startTime&quot;: &quot;TODAY - 3&quot;,  &quot;endTime&quot;: &quot;TODAY&quot;
+"startTime": "TODAY - 3",  "endTime": "TODAY"
 </code></pre></div>
 <h2 id="data-sources">Data Sources<a class="headerlink" href="#data-sources" title="Permanent link">&para;</a></h2>
 <p>The 'data_sources' section of the configuration file defines which information will be added to the
 mesh when constructed. Each item in the list of data sources represents a single dataset to be added
 to the mesh.</p>
-<div class="highlight"><pre><span></span><code><span class="nt">&quot;data_sources&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<div class="highlight"><pre><span></span><code><span class="nt">"data_sources"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">    </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;loader&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;params&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">            </span><span class="nt">&quot;data_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;SIC&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;min&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;max&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;seed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">16</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;offset&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;splitting_conditions&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">        </span><span class="nt">"loader"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">"params"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="nt">"data_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"SIC"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"min"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"max"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"seed"</span><span class="p">:</span><span class="w"> </span><span class="mi">16</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"offset"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"splitting_conditions"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                </span><span class="p">{</span>
-<span class="w">                    </span><span class="nt">&quot;SIC&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">                        </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">75</span><span class="p">,</span>
-<span class="w">                        </span><span class="nt">&quot;upper_bound&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span>
-<span class="w">                        </span><span class="nt">&quot;lower_bound&quot;</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span>
+<span class="w">                    </span><span class="nt">"SIC"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                        </span><span class="nt">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="mi">75</span><span class="p">,</span>
+<span class="w">                        </span><span class="nt">"upper_bound"</span><span class="p">:</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span>
+<span class="w">                        </span><span class="nt">"lower_bound"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.0</span>
 <span class="w">                    </span><span class="p">}</span>
 <span class="w">                </span><span class="p">}</span>
 <span class="w">            </span><span class="p">],</span>
-<span class="w">            </span><span class="nt">&quot;dataloader_name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;scalar_grf&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;downsample_factors&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="nt">"dataloader_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"scalar_grf"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"downsample_factors"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                </span><span class="mi">1</span><span class="p">,</span>
 <span class="w">                </span><span class="mi">1</span>
 <span class="w">            </span><span class="p">],</span>
-<span class="w">            </span><span class="nt">&quot;aggregate_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;MEAN&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;min_dp&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;in_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;out_proj&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EPSG:4326&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;x_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;lat&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;y_col&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;long&quot;</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;size&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;alpha&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;binary&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">            </span><span class="nt">&quot;threshold&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">            </span><span class="nt">"aggregate_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MEAN"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"min_dp"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"in_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"out_proj"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPSG:4326"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"x_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lat"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"y_col"</span><span class="p">:</span><span class="w"> </span><span class="s2">"long"</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"size"</span><span class="p">:</span><span class="w"> </span><span class="mi">512</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"alpha"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"binary"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
+<span class="w">            </span><span class="nt">"threshold"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
 <span class="w">                </span><span class="mi">0</span><span class="p">,</span>
 <span class="w">                </span><span class="mi">1</span>
 <span class="w">            </span><span class="p">],</span>
-<span class="w">            </span><span class="nt">&quot;multiplier&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
+<span class="w">            </span><span class="nt">"multiplier"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span>
 <span class="w">        </span><span class="p">}</span>
 <span class="w">    </span><span class="p">},</span>
 <span class="w">    </span><span class="err">...</span><span class="w"> </span><span class="err">o</span><span class="kc">t</span><span class="err">her</span><span class="w"> </span><span class="err">da</span><span class="kc">ta</span><span class="err">_sources</span>
@@ -3719,9 +3719,9 @@ Imagining a plot similar to the figure above,</p>
 <p>The splitting section of the Configuration file defines the splitting parameters that are <em>common</em> across all the data sources and determines how the CellBoxes that form the
 Mesh will be sub-divided based on the homogeneity of the data points contained within to form a mesh
 of non-uniform spatial resolution.</p>
-<div class="highlight"><pre><span></span><code><span class="nt">&quot;splitting&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;split_depth&quot;</span><span class="p">:</span><span class="mi">6</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;minimum_datapoints&quot;</span><span class="p">:</span><span class="mi">5</span>
+<div class="highlight"><pre><span></span><code><span class="nt">"splitting"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">"split_depth"</span><span class="p">:</span><span class="mi">6</span><span class="p">,</span>
+<span class="w">    </span><span class="nt">"minimum_datapoints"</span><span class="p">:</span><span class="mi">5</span>
 <span class="p">}</span>
 </code></pre></div>
 <p>where the variables are as follows:</p>
@@ -3785,7 +3785,7 @@ of non-uniform spatial resolution.</p>
       <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.action.edit"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

@@ -19,7 +19,7 @@
       
       
       <link rel="icon" href="https://cdn.web.bas.ac.uk/bas-style-kit/0.7.3/img/favicon/favicon-16x16.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -27,7 +27,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -3363,18 +3363,18 @@ basic steps would be to</p>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="c1"># Params formatted same way as dataloaders in config</span>
 <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
-   <span class="s1">&#39;files&#39;</span><span class="p">:</span> <span class="p">[</span>  
-      <span class="s1">&#39;PATH_TO_FILE_1&#39;</span><span class="p">,</span>
-      <span class="s1">&#39;PATH_TO_FILE_2&#39;</span><span class="p">,</span>
+   <span class="s1">'files'</span><span class="p">:</span> <span class="p">[</span>  
+      <span class="s1">'PATH_TO_FILE_1'</span><span class="p">,</span>
+      <span class="s1">'PATH_TO_FILE_2'</span><span class="p">,</span>
       <span class="o">...</span> <span class="c1"># Populate with as many files as you need</span>
    <span class="p">],</span>
-   <span class="s1">&#39;data_name&#39;</span><span class="p">:</span> <span class="s1">&#39;my_data&#39;</span><span class="p">,</span>
-   <span class="s1">&#39;splitting_conditions&#39;</span><span class="p">:[</span>
+   <span class="s1">'data_name'</span><span class="p">:</span> <span class="s1">'my_data'</span><span class="p">,</span>
+   <span class="s1">'splitting_conditions'</span><span class="p">:[</span>
       <span class="p">{</span>
-      <span class="s1">&#39;my_data&#39;</span><span class="p">:{</span>
-         <span class="s1">&#39;threshold&#39;</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span>
-         <span class="s1">&#39;upper_bound&#39;</span><span class="p">:</span> <span class="mf">0.9</span><span class="p">,</span>
-         <span class="s1">&#39;lower_bound&#39;</span><span class="p">:</span> <span class="mf">0.1</span>
+      <span class="s1">'my_data'</span><span class="p">:{</span>
+         <span class="s1">'threshold'</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span>
+         <span class="s1">'upper_bound'</span><span class="p">:</span> <span class="mf">0.9</span><span class="p">,</span>
+         <span class="s1">'lower_bound'</span><span class="p">:</span> <span class="mf">0.1</span>
          <span class="p">}</span>
       <span class="p">}</span>
    <span class="p">]</span>
@@ -3387,7 +3387,7 @@ basic steps would be to</p>
 <span class="kn">from</span><span class="w"> </span><span class="nn">meshiphi.import</span> <span class="n">MeshBuilder</span>
 
 <span class="c1"># Config to initialise mesh from</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;config.json&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">'config.json'</span><span class="p">,</span> <span class="s1">'r'</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
    <span class="n">config</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">fp</span><span class="p">)</span>
 
 <span class="c1"># Build a mesh from the config</span>
@@ -3473,7 +3473,7 @@ to create the dataloader object from within <code>meshiphi.Dataloaders/Factory.p
       <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.action.edit"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
